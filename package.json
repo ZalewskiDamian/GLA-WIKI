@@ -6,9 +6,9 @@
   "homepage": "https://zalewskidamian.github.io/GLA-WIKI/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build --base=./",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
