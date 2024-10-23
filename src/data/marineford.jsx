@@ -5,6 +5,7 @@ import medalBastille from "@/assets/images/medals/bastille-medal.png";
 import medalDalmatian from "@/assets/images/medals/dalmatian-medal.png";
 import medalSmoker from "@/assets/images/medals/smoker-medal.png";
 import medalMoria from "@/assets/images/medals/moria-medal.png";
+import medalBrannew from "@/assets/images/medals/moria-medal.png";
 import medalKizaru from "@/assets/images/medals/kizaru-medal.png";
 import medalAokiji from "@/assets/images/medals/aokiji-medal.png";
 import medalAkainu from "@/assets/images/medals/akainu-medal.png";
@@ -56,30 +57,36 @@ const marinefordData = [
   },
   {
     id: "8",
+    name: "Brannew",
+    url: "brannew",
+    medal: medalBrannew,
+  },
+  {
+    id: "9",
     name: "Kizaru",
     url: "kizaru",
     medal: medalKizaru,
   },
   {
-    id: "9",
+    id: "10",
     name: "Aokiji",
     url: "aokiji",
     medal: medalAokiji,
   },
   {
-    id: "10",
+    id: "11",
     name: "Akainu",
     url: "akainu",
     medal: medalAkainu,
   },
   {
-    id: "11",
+    id: "12",
     name: "Doflamingo",
     url: "doflamingo",
     medal: medalDoflamingo,
   },
   {
-    id: "12",
+    id: "13",
     name: "Mihawk",
     url: "mihawk",
     medal: medalMihawk,
