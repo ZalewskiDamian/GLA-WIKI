@@ -7,7 +7,7 @@ export const Card = ({ name, imageSrc, url, color }) => {
       <div
         className="group rounded-lg border border-solid border-black px-4 py-7 flex justify-end items-center relative shadow-lg bg-no-repeat "
         style={{
-          backgroundImage: `url(${bgDots})`,
+          backgroundImage: `url("${bgDots}")`,
           backgroundSize: "30%",
           backgroundPosition: "50% -20px",
           backgroundColor: `${color}`,
