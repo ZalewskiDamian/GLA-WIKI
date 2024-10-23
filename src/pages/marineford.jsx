@@ -16,8 +16,9 @@ const Marineford = () => {
           <Card
             key={card.id}
             url={card.url}
-            imageSrc={card.medal}
+            imageSrc={card.sprite}
             name={card.name}
+            color={card.color}
           />
         ))}
       </div>

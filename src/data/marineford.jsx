@@ -1,95 +1,108 @@
-import medalTashigi from "@/assets/images/medals/tashigi-medal.png";
-import medalJango from "@/assets/images/medals/jango-medal.png";
-import medalHina from "@/assets/images/medals/hina-medal.png";
-import medalBastille from "@/assets/images/medals/bastille-medal.png";
-import medalDalmatian from "@/assets/images/medals/dalmatian-medal.png";
-import medalSmoker from "@/assets/images/medals/smoker-medal.png";
-import medalMoria from "@/assets/images/medals/moria-medal.png";
-import medalBrannew from "@/assets/images/medals/moria-medal.png";
-import medalKizaru from "@/assets/images/medals/kizaru-medal.png";
-import medalAokiji from "@/assets/images/medals/aokiji-medal.png";
-import medalAkainu from "@/assets/images/medals/akainu-medal.png";
-import medalDoflamingo from "@/assets/images/medals/doflamingo-medal.png";
-import medalMihawk from "@/assets/images/medals/mihawk-medal.png";
+import spriteTashigi from "@/assets/images/sprites/tashigi-sprite.png";
+import spriteJango from "@/assets/images/sprites/jango-sprite.png";
+import spriteHina from "@/assets/images/sprites/hina-sprite.png";
+import spriteBastille from "@/assets/images/sprites/bastille-sprite.png";
+import spriteDalmatian from "@/assets/images/sprites/dalmatian-sprite.png";
+import spriteSmoker from "@/assets/images/sprites/smoker-sprite.png";
+import spriteMoria from "@/assets/images/sprites/moria-sprite.png";
+import spriteBrannew from "@/assets/images/sprites/brannew-sprite.png";
+import spriteKizaru from "@/assets/images/sprites/kizaru-sprite.png";
+import spriteAokiji from "@/assets/images/sprites/aokiji-sprite.png";
+import spriteAkainu from "@/assets/images/sprites/akainu-sprite.png";
+import spriteDoflamingo from "@/assets/images/sprites/doflamingo-sprite.png";
+import spriteMihawk from "@/assets/images/sprites/mihawk-sprite.png";
 
 const marinefordData = [
   {
     id: "1",
     name: "Tashigi",
     url: "tashigi",
-    medal: medalTashigi,
+    sprite: spriteTashigi,
+    color: "#e88f9f",
   },
   {
     id: "2",
     name: "Jango",
     url: "jango",
-    medal: medalJango,
+    sprite: spriteJango,
+    color: "#242c54",
   },
   {
     id: "3",
     name: "Hina",
     url: "hina",
-    medal: medalHina,
+    sprite: spriteHina,
+    color: "#b9103b",
   },
   {
     id: "4",
     name: "Bastille",
     url: "bastille",
-    medal: medalBastille,
+    sprite: spriteBastille,
+    color: "#383842",
   },
   {
     id: "5",
     name: "Dalmatian",
     url: "dalmatian",
-    medal: medalDalmatian,
+    sprite: spriteDalmatian,
+    color: "#656827",
   },
   {
     id: "6",
     name: "Smoker",
     url: "smoker",
-    medal: medalSmoker,
+    sprite: spriteSmoker,
+    color: "#424d69",
   },
   {
     id: "7",
     name: "Moria",
     url: "moria",
-    medal: medalMoria,
+    sprite: spriteMoria,
+    color: "#7d3782",
   },
   {
     id: "8",
     name: "Brannew",
     url: "brannew",
-    medal: medalBrannew,
+    sprite: spriteBrannew,
+    color: "#7db8e4",
   },
   {
     id: "9",
     name: "Kizaru",
     url: "kizaru",
-    medal: medalKizaru,
+    sprite: spriteKizaru,
+    color: "#bb8b21",
   },
   {
     id: "10",
     name: "Aokiji",
     url: "aokiji",
-    medal: medalAokiji,
+    sprite: spriteAokiji,
+    color: "#4a68d8",
   },
   {
     id: "11",
     name: "Akainu",
     url: "akainu",
-    medal: medalAkainu,
+    sprite: spriteAkainu,
+    color: "#780d0e",
   },
   {
     id: "12",
     name: "Doflamingo",
     url: "doflamingo",
-    medal: medalDoflamingo,
+    sprite: spriteDoflamingo,
+    color: "#c56f7b",
   },
   {
     id: "13",
     name: "Mihawk",
     url: "mihawk",
-    medal: medalMihawk,
+    sprite: spriteMihawk,
+    color: "#2a2c2f",
   },
 ];
 
