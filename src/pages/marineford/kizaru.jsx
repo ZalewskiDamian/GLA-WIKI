@@ -20,7 +20,7 @@ const Kizaru = () => {
     <>
       <Heading
         title="Kizaru"
-        description="Jeden z bosów pojawiających się na 25 fali"
+        description="Jeden z bosów pojawiających się na 30 fali"
         imageSrc={headingImage}
       />
       <Title>Informacje:</Title>
