@@ -15,6 +15,15 @@ import { Text } from "@/components/ui/text";
 
 import headingImage from "@/assets/images/heading/bastille-heading.png";
 
+//SKILL RANGE
+import skill_zanbato_slash_range from "@/assets/images/marineford/bastille/bastille-zanbato-slash-range.png";
+import skill_birukatta_range from "@/assets/images/marineford/bastille/bastille-birukatta-range.png";
+import skill_furaingusodo_range from "@/assets/images/marineford/bastille/bastille-furaingusodo-range.png";
+import skill_brute_force_one_range from "@/assets/images/marineford/bastille/bastille-brute-force-one-range.png";
+import skill_brute_force_two_range from "@/assets/images/marineford/bastille/bastille-brute-force-two-range.png";
+import skill_strawberry_range from "@/assets/images/marineford/bastille/bastille-strawberry-range.png";
+import skill_bomb_attack_range from "@/assets/images/marineford/bastille/bastille-bomb-attack-range.png";
+
 const Bastille = () => {
   return (
     <>
@@ -26,26 +35,132 @@ const Bastille = () => {
       <Title>Informacje:</Title>
       <Box>
         <List>
-          <ListItem>test</ListItem>
-          <ListItem>test</ListItem>
-          <ListItem>test</ListItem>
+          <ListItem>
+            Bastille pojawia się z duża falą marinsów tylko na
+            początku
+          </ListItem>
         </List>
       </Box>
       <Separator />
       <Title>Umiejętności:</Title>
       <Box>
-        <Text>1. Spell</Text>
-        <Tabs defaultValue="range" className="w-[400px]">
+        <Text>1. Zanbato Slash </Text>
+        <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
             <TabsTrigger value="range">Range</TabsTrigger>
             <TabsTrigger value="cast">Cast</TabsTrigger>
-            <TabsTrigger value="gif">GIF</TabsTrigger>
+            <TabsTrigger value="video">Video</TabsTrigger>
           </TabsList>
-          <TabsContent value="range">Range</TabsContent>
+          <TabsContent value="range">
+            <img src={skill_zanbato_slash_range} alt="skill" />
+          </TabsContent>
           <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="gif">Gif</TabsContent>
+          <TabsContent value="video">Video</TabsContent>
         </Tabs>
       </Box>
+      <Separator />
+      <Box>
+        <Text>2. Birukatta - wave 3x8</Text>
+        <Tabs defaultValue="range" className="w-[1000px]">
+          <TabsList>
+            <TabsTrigger value="range">Range</TabsTrigger>
+            <TabsTrigger value="cast">Cast</TabsTrigger>
+            <TabsTrigger value="video">Video</TabsTrigger>
+          </TabsList>
+          <TabsContent value="range">
+            <img src={skill_birukatta_range} alt="skill" />
+          </TabsContent>
+          <TabsContent value="cast">Cast</TabsContent>
+          <TabsContent value="video">Video</TabsContent>
+        </Tabs>
+      </Box>
+      <Separator />
+      <Box>
+        <Text>
+          3. Furaingusodo - wave o różnej szerokości na 7 sqm w przód.
+          Można unikać skosując w stronę Bastille.
+        </Text>
+        <Tabs defaultValue="range" className="w-[1000px]">
+          <TabsList>
+            <TabsTrigger value="range">Range</TabsTrigger>
+            <TabsTrigger value="cast">Cast</TabsTrigger>
+            <TabsTrigger value="video">Video</TabsTrigger>
+          </TabsList>
+          <TabsContent value="range">
+            <img src={skill_furaingusodo_range} alt="skill" />
+          </TabsContent>
+          <TabsContent value="cast">Cast</TabsContent>
+          <TabsContent value="video">Video</TabsContent>
+        </Tabs>
+      </Box>
+      <Separator />
+      <Box>
+        <Text>
+          4. Brute Force - obasz uderzający 2x. Pierwsza fala ma
+          obszar 2x2 wokół Bastille, kolejna fala 4x4.
+        </Text>
+        <Tabs defaultValue="range" className="w-[1000px]">
+          <TabsList>
+            <TabsTrigger value="range">Range</TabsTrigger>
+            <TabsTrigger value="cast">Cast</TabsTrigger>
+            <TabsTrigger value="video">Video</TabsTrigger>
+          </TabsList>
+          <TabsContent value="range">
+            <img
+              src={skill_brute_force_one_range}
+              alt="skill"
+              className="mb-2"
+            />
+            <img src={skill_brute_force_two_range} alt="skill" />
+          </TabsContent>
+          <TabsContent value="cast">Cast</TabsContent>
+          <TabsContent value="video">Video</TabsContent>
+        </Tabs>
+      </Box>
+      <Separator />
+      <Box>
+        <Text>
+          5. Strawberry - spada on w miejscu ciena zadając dmg w
+          obszarze 2x2 od niego. Dodatkowo bije 2x wave o zasięgu
+          Birukatty lewo oraz prawo, lub góra i dół.
+        </Text>
+        <Tabs defaultValue="range" className="w-[1000px]">
+          <TabsList>
+            <TabsTrigger value="range">Range</TabsTrigger>
+            <TabsTrigger value="cast">Cast</TabsTrigger>
+            <TabsTrigger value="video">Video</TabsTrigger>
+          </TabsList>
+          <TabsContent value="range">
+            <img src={skill_strawberry_range} alt="skill" />
+          </TabsContent>
+          <TabsContent value="cast">Cast</TabsContent>
+          <TabsContent value="video">Video</TabsContent>
+        </Tabs>
+      </Box>
+      <Separator />
+      <Box>
+        <Text>
+          6. Bomb Attack - wokół Bastille pojawia się zielono kółko.
+          Jest to jedyny bezpieczny obszar na którym wszyscy muszą
+          stanąć. Każdy sqm na mapie poza tym okręgiem będzie
+          bombardowany. Ważne! Po spadnięciu bomb trzeba szybko
+          uciekać od Bastilla ponieważ wykona atak obszarowy 3x3 sqm
+          wokół siebie.
+        </Text>
+        <Tabs defaultValue="range" className="w-[1000px]">
+          <TabsList>
+            <TabsTrigger value="range">Range</TabsTrigger>
+            <TabsTrigger value="cast">Cast</TabsTrigger>
+            <TabsTrigger value="video">Video</TabsTrigger>
+          </TabsList>
+          <TabsContent value="range">
+            <img src={skill_bomb_attack_range} alt="skill" />
+          </TabsContent>
+          <TabsContent value="cast">Cast</TabsContent>
+          <TabsContent value="video">Video</TabsContent>
+        </Tabs>
+      </Box>
+      <Separator />
     </>
   );
 };

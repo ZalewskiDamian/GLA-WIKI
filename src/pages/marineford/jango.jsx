@@ -91,7 +91,7 @@ const Jango = () => {
       <Box>
         <Text>
           2. Kira Chakram - Jango porusza się z czakramami wokół
-          siebie na obszarze 5x5
+          siebie na obszarze 5x5. Przed użyciem kręci się dwukrotnie.
         </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
