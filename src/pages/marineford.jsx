@@ -158,7 +158,7 @@ const Marineford = () => {
       <Separator />
       <Title className="text-center mb-0">Mechaniki Bossów</Title>
       <p className="text-sm text-muted-foreground text-center mb-4">
-        Wszystkie postacie posiadają bronie
+        Opis mechanik bossów w postaci zasięgu, castowania i video
       </p>
       <div className="grid grid-cols-4 pt-20 gap-x-5 gap-y-14">
         {data.map((card) => (
