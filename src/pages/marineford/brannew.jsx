@@ -119,7 +119,7 @@ const Brannew = () => {
           na raz. Jeśli się to nie uda należy poczekać aż na jednej z
           postaci pojawi się celownik - ta osoba będzie atakowana
           pierwsza. Postacie mele muszą uważać ponieważ obszar bicia
-          Gatling Guna bije też wokół celu.
+          Gatling Guna bije też wokół celu. Używa skilla co 75 sekund.
         </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>

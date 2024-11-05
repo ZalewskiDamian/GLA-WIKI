@@ -27,6 +27,28 @@ import skill_tsuno_tokage_range from "@/assets/images/marineford/moria/moria-tsu
 import skill_shadow_asgard_range from "@/assets/images/marineford/moria/moria-shadow-asgard-range.png";
 import skill_brick_bat_wave_range from "@/assets/images/marineford/moria/moria-brick-bat-wave-range.png";
 
+//SKILL CAST
+import skill_kitem_no_hasami_cast from "@/assets/images/marineford/moria/moria-kitem-no-hasami-cast.mp4";
+import skill_hasami_giri_cast from "@/assets/images/marineford/moria/moria-hasami-giri-cast.mp4";
+import skill_hasami_giri_dash_cast from "@/assets/images/marineford/moria/moria-hasami-giri-dash-cast.mp4";
+import skill_tokage_wave_cast from "@/assets/images/marineford/moria/moria-tokage-wave-cast.mp4";
+import skill_brick_bat_cast from "@/assets/images/marineford/moria/moria-brick-bat-cast.mp4";
+import skill_kage_wo_yokase_cast from "@/assets/images/marineford/moria/moria-kage-wo-yokase-cast.mp4";
+import skill_tsuno_tokage_cast from "@/assets/images/marineford/moria/moria-tsuno-tokage-cast.mp4";
+import skill_shadow_asgard_cast from "@/assets/images/marineford/moria/moria-shadow-asgard-cast.mp4";
+import skill_brick_bat_wave_cast from "@/assets/images/marineford/moria/moria-brick-bat-wave-cast.mp4";
+
+//SKILL VIDEO
+import skill_kitem_no_hasami_video from "@/assets/images/marineford/moria/moria-kitem-no-hasami-video.mp4";
+import skill_hasami_giri_video from "@/assets/images/marineford/moria/moria-hasami-giri-cast.mp4";
+import skill_hasami_giri_dash_video from "@/assets/images/marineford/moria/moria-hasami-giri-dash-video.mp4";
+import skill_tokage_wave_video from "@/assets/images/marineford/moria/moria-tokage-wave-video.mp4";
+import skill_brick_bat_video from "@/assets/images/marineford/moria/moria-brick-bat-cast.mp4";
+import skill_kage_wo_yokase_video from "@/assets/images/marineford/moria/moria-kage-wo-yokase-cast.mp4";
+import skill_tsuno_tokage_video from "@/assets/images/marineford/moria/moria-tsuno-tokage-video.mp4";
+import skill_shadow_asgard_video from "@/assets/images/marineford/moria/moria-shadow-asgard-video.mp4";
+import skill_brick_bat_wave_video from "@/assets/images/marineford/moria/moria-brick-bat-wave-video.mp4";
+
 const Moria = () => {
   return (
     <>
@@ -67,16 +89,33 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_hasami_giri_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_hasami_giri_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_hasami_giri_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
       <Box>
         <Text>
           2. Hasami Giri Dash - moria uderze przed siebie 5x Hasami
-          Giri. Nie należy stać naprzeciw Morii. Przed użyciem
-          umiejętności Moria kuca pochylając się do przodu.
+          Giri w jednym kierunku. Nie należy stać naprzeciw Morii.
+          Przed użyciem umiejętności Moria kuca pochylając się do
+          przodu.
         </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
@@ -87,8 +126,25 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_hasami_giri_dash_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_hasami_giri_dash_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            {" "}
+            <video
+              src={skill_hasami_giri_dash_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -106,8 +162,24 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_kitem_no_hasami_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_kitem_no_hasami_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_kitem_no_hasami_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -125,8 +197,24 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_tokage_wave_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_tokage_wave_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_tokage_wave_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -145,13 +233,33 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_brick_bat_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_brick_bat_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            {" "}
+            <video
+              src={skill_brick_bat_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
       <Box>
-        <Text>2. Kage Wo Yokase - wave o obszarze 5x4.</Text>
+        <Text>
+          2. Kage Wo Yokase - wave o obszarze 5x4. Zazwyczaj Moria
+          używa go od razu po dashu
+        </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
             <TabsTrigger value="range">Range</TabsTrigger>
@@ -161,8 +269,24 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_kage_wo_yokase_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_kage_wo_yokase_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_kage_wo_yokase_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -186,8 +310,24 @@ const Moria = () => {
             />
             <img src={skill_tsuno_tokage_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_tsuno_tokage_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_tsuno_tokage_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -205,8 +345,24 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_shadow_asgard_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_shadow_asgard_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_shadow_asgard_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -224,8 +380,24 @@ const Moria = () => {
           <TabsContent value="range">
             <img src={skill_brick_bat_wave_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_brick_bat_wave_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_brick_bat_wave_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
     </>
