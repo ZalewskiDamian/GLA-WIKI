@@ -24,6 +24,21 @@ import skill_brute_force_two_range from "@/assets/images/marineford/bastille/bas
 import skill_strawberry_range from "@/assets/images/marineford/bastille/bastille-strawberry-range.png";
 import skill_bomb_attack_range from "@/assets/images/marineford/bastille/bastille-bomb-attack-range.png";
 
+//SKILL CAST
+import skill_zenbato_slash_cast from "@/assets/images/marineford/bastille/bastille-zanbato-slash-cast.mp4";
+import skill_birukatta_cast from "@/assets/images/marineford/bastille/bastille-birukatta-cast.mp4";
+import skill_furaingusodo_cast from "@/assets/images/marineford/bastille/bastille-furaingusodo-cast.mp4";
+import skill_brute_force_cast from "@/assets/images/marineford/bastille/bastille-brute-force-cast.mp4";
+import skill_strawberry_cast from "@/assets/images/marineford/bastille/bastille-strawberry-cast.mp4";
+import skill_bomb_attack_cast from "@/assets/images/marineford/bastille/bastille-bomb-attack-cast.mp4";
+
+//SKILL VIDEO
+import skill_zenbato_slash_video from "@/assets/images/marineford/bastille/bastille-zanbato-slash-cast.mp4";
+import skill_birukatta_video from "@/assets/images/marineford/bastille/bastille-birukatta-video.mp4";
+import skill_furaingusodo_video from "@/assets/images/marineford/bastille/bastille-furaingusodo-video.mp4";
+import skill_brute_force_video from "@/assets/images/marineford/bastille/bastille-brute-force-video.mp4";
+import skill_strawberry_video from "@/assets/images/marineford/bastille/bastille-strawberry-video.mp4";
+import skill_bomb_attack_video from "@/assets/images/marineford/bastille/bastille-bomb-attack-video.mp4";
 const Bastille = () => {
   return (
     <>
@@ -54,8 +69,24 @@ const Bastille = () => {
           <TabsContent value="range">
             <img src={skill_zanbato_slash_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_zenbato_slash_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_zenbato_slash_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -70,8 +101,24 @@ const Bastille = () => {
           <TabsContent value="range">
             <img src={skill_birukatta_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_birukatta_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_birukatta_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -89,8 +136,24 @@ const Bastille = () => {
           <TabsContent value="range">
             <img src={skill_furaingusodo_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_furaingusodo_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_furaingusodo_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -113,8 +176,24 @@ const Bastille = () => {
             />
             <img src={skill_brute_force_two_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_brute_force_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_brute_force_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -133,19 +212,38 @@ const Bastille = () => {
           <TabsContent value="range">
             <img src={skill_strawberry_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_strawberry_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_strawberry_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
       <Box>
         <Text>
-          6. Bomb Attack - wokół Bastille pojawia się zielono kółko.
-          Jest to jedyny bezpieczny obszar na którym wszyscy muszą
-          stanąć. Każdy sqm na mapie poza tym okręgiem będzie
-          bombardowany. Ważne! Po spadnięciu bomb trzeba szybko
-          uciekać od Bastilla ponieważ wykona atak obszarowy 3x3 sqm
-          wokół siebie.
+          6. Bomb Attack - Bastille teleportuje się na środek mapy,
+          pojawia się zielono kółko. Jest to jedyny bezpieczny obszar
+          na którym wszyscy muszą stanąć. Każdy sqm na mapie poza tym
+          okręgiem będzie bombardowany.{" "}
+          <b>
+            Ważne! Po spadnięciu bomb trzeba szybko uciekać od
+            Bastilla w lini prostej ponieważ wykona atak obszarowy 3x3
+            sqm wokół siebie.
+          </b>
         </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
@@ -156,8 +254,24 @@ const Bastille = () => {
           <TabsContent value="range">
             <img src={skill_bomb_attack_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_bomb_attack_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_bomb_attack_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
