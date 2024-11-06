@@ -23,6 +23,22 @@ import skill_anty_range_range from "@/assets/images/marineford/hina/hina-anty-ra
 import skill_wave_range from "@/assets/images/marineford/hina/hina-wave-range.png";
 import skill_cage_range from "@/assets/images/marineford/hina/hina-cage-range.png";
 
+//SKILL CAST
+import skill_kuroori_supaiku_cast from "@/assets/images/marineford/hina/hina-kuroori-supaiku-cast.mp4";
+import skill_rankyaku_cast from "@/assets/images/marineford/hina/hina-rankyaku-cast.mp4";
+import skill_awase_baori_cast from "@/assets/images/marineford/hina/hina-awase-baori-cast.mp4";
+import skill_anty_range_kuroori_cast from "@/assets/images/marineford/hina/hina-anty-range-kuroori-cast.mp4";
+import skill_wave_kuroori_cast from "@/assets/images/marineford/hina/hina-wave-kuroori-cast.mp4";
+import skill_cage_kuroori_cast from "@/assets/images/marineford/hina/hina-cage-kuroori-cast.mp4";
+
+//SKILL VIDEO
+import skill_kuroori_supaiku_video from "@/assets/images/marineford/hina/hina-kuroori-supaiku-video.mp4";
+import skill_rankyaku_video from "@/assets/images/marineford/hina/hina-rankyaku-cast.mp4";
+import skill_awase_baori_video from "@/assets/images/marineford/hina/hina-awase-baori-cast.mp4";
+import skill_anty_range_kuroori_video from "@/assets/images/marineford/hina/hina-anty-range-kuroori-cast.mp4";
+import skill_wave_kuroori_video from "@/assets/images/marineford/hina/hina-wave-kuroori-video.mp4";
+import skill_cage_kuroori_video from "@/assets/images/marineford/hina/hina-cage-kuroori-video.mp4";
+
 const Hina = () => {
   return (
     <>
@@ -53,8 +69,24 @@ const Hina = () => {
           <TabsContent value="range">
             <img src={skill_kuroori_supaiku_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_kuroori_supaiku_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_kuroori_supaiku_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -72,8 +104,24 @@ const Hina = () => {
           <TabsContent value="range">
             <img src={skill_rankyaku_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_rankyaku_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_rankyaku_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -91,8 +139,24 @@ const Hina = () => {
           <TabsContent value="range">
             <img src={skill_awase_baori_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_awase_baori_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_awase_baori_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -109,8 +173,24 @@ const Hina = () => {
           <TabsContent value="range">
             <img src={skill_anty_range_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_anty_range_kuroori_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_anty_range_kuroori_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -129,20 +209,38 @@ const Hina = () => {
           <TabsContent value="range">
             <img src={skill_wave_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_wave_kuroori_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_wave_kuroori_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
       <Box>
         <Text>
-          5. Cage Kuroori - Na mapie pojawia się klatka o wyznaczonym
+          6. Cage Kuroori - Na mapie pojawia się klatka o wyznaczonym
           obszarze. Można z niej uciec przed zamknięciem używając
           dasha. Jeśli komuś się nie uda i będzie zamknięty wewnątrz
           będzie musiał unikać co sekundę kolców pojawiąjących się pod
-          nogami. WAŻNE! Reszta drużyny w tym czasie musi atakować
-          Hinę, po zadaniu odpowiedniej ilośći obrażeń anuluje ona
-          klatkę.
+          nogami.{" "}
+          <b>
+            WAŻNE! Reszta drużyny w tym czasie musi atakować Hinę, po
+            zadaniu odpowiedniej ilośći obrażeń anuluje ona klatkę.
+          </b>
         </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
@@ -153,8 +251,24 @@ const Hina = () => {
           <TabsContent value="range">
             <img src={skill_cage_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_cage_kuroori_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_cage_kuroori_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
     </>
