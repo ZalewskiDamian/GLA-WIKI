@@ -24,6 +24,24 @@ import skill_white_snake_range from "@/assets/images/marineford/smoker/smoker-wh
 import skill_smoke_wave_range from "@/assets/images/marineford/smoker/smoker-smoke-wave-range.png";
 import skill_anty_range_range from "@/assets/images/marineford/smoker/smoker-anty-range-range.png";
 
+//SKILL CAST
+import skill_white_blow_cast from "@/assets/images/marineford/smoker/smoker-white-blow-cast.mp4";
+import skill_white_out_cast from "@/assets/images/marineford/smoker/smoker-white-out-cast.mp4";
+import skill_white_strike_cast from "@/assets/images/marineford/smoker/smoker-white-strike-cast.mp4";
+import skill_white_vine_cast from "@/assets/images/marineford/smoker/smoker-white-vine-cast.mp4";
+import skill_white_snake_cast from "@/assets/images/marineford/smoker/smoker-white-snake-cast.mp4";
+import skill_smoke_wave_cast from "@/assets/images/marineford/smoker/smoker-smoke-wave-cast.mp4";
+import skill_anty_range_cast from "@/assets/images/marineford/smoker/smoker-anty-range-smoke-cast.mp4";
+
+//SKILL VIDEO
+import skill_white_blow_video from "@/assets/images/marineford/smoker/smoker-white-blow-cast.mp4";
+import skill_white_out_video from "@/assets/images/marineford/smoker/smoker-white-out-video.mp4";
+import skill_white_strike_video from "@/assets/images/marineford/smoker/smoker-white-strike-cast.mp4";
+import skill_white_vine_video from "@/assets/images/marineford/smoker/smoker-white-vine-cast.mp4";
+import skill_white_snake_video from "@/assets/images/marineford/smoker/smoker-white-snake-cast.mp4";
+import skill_smoke_wave_video from "@/assets/images/marineford/smoker/smoker-smoke-wave-cast.mp4";
+import skill_anty_range_video from "@/assets/images/marineford/smoker/smoker-anty-range-smoke-cast.mp4";
+
 const Smoker = () => {
   return (
     <>
@@ -56,8 +74,24 @@ const Smoker = () => {
           <TabsContent value="range">
             <img src={skill_white_blow_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_white_blow_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_white_blow_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -72,8 +106,24 @@ const Smoker = () => {
           <TabsContent value="range">
             <img src={skill_white_out_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_white_out_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_white_out_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -88,8 +138,24 @@ const Smoker = () => {
           <TabsContent value="range">
             <img src={skill_white_strike_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_white_strike_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_white_strike_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -104,8 +170,24 @@ const Smoker = () => {
           <TabsContent value="range">
             <img src={skill_white_vine_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_white_vine_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_white_vine_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -123,8 +205,24 @@ const Smoker = () => {
           <TabsContent value="range">
             <img src={skill_white_snake_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_white_snake_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_white_snake_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -142,8 +240,24 @@ const Smoker = () => {
           <TabsContent value="range">
             <img src={skill_smoke_wave_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_smoke_wave_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_smoke_wave_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -161,8 +275,24 @@ const Smoker = () => {
           <TabsContent value="range">
             <img src={skill_anty_range_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_anty_range_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_anty_range_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
     </>
