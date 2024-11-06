@@ -20,8 +20,24 @@ import skill_dog_claws_range from "@/assets/images/marineford/dalmatian/dalmatia
 import skill_shingan_ten_range from "@/assets/images/marineford/dalmatian/dalmatian-shigan-ten-range.png";
 import skill_overpower_range from "@/assets/images/marineford/dalmatian/dalmatian-overpower-range.png";
 import skill_tekkai_range from "@/assets/images/marineford/dalmatian/dalmatian-tekkai-range.png";
-import skill_carnage_range from "@/assets/images/marineford/dalmatian/dalmatian-carnage-range.png";
+import skill_carange_range from "@/assets/images/marineford/dalmatian/dalmatian-carange-range.png";
 import skill_dog_claws_instinct_range from "@/assets/images/marineford/dalmatian/dalmatian-dog-claws-instinct-range.png";
+
+//SKILL CAST
+import skill_dog_claws_cast from "@/assets/images/marineford/dalmatian/dalmatian-dog-claws-cast.mp4";
+import skill_shingan_ten_cast from "@/assets/images/marineford/dalmatian/dalmatian-shingan-ten-cast.mp4";
+import skill_overpower_cast from "@/assets/images/marineford/dalmatian/dalmatian-overpower-cast.mp4";
+import skill_tekkai_cast from "@/assets/images/marineford/dalmatian/dalmatian-tekkai-cast.mp4";
+import skill_carange_cast from "@/assets/images/marineford/dalmatian/dalmatian-carange-cast.mp4";
+import skill_dog_claws_instinct_cast from "@/assets/images/marineford/dalmatian/dalmatian-dog-claws-instinct-cast.mp4";
+
+//SKILL VIDEO
+import skill_dog_claws_video from "@/assets/images/marineford/dalmatian/dalmatian-dog-claws-cast.mp4";
+import skill_shingan_ten_video from "@/assets/images/marineford/dalmatian/dalmatian-shingan-ten-cast.mp4";
+import skill_overpower_video from "@/assets/images/marineford/dalmatian/dalmatian-overpower-video.mp4";
+import skill_tekkai_video from "@/assets/images/marineford/dalmatian/dalmatian-tekkai-cast.mp4";
+import skill_carange_video from "@/assets/images/marineford/dalmatian/dalmatian-carange-video.mp4";
+import skill_dog_claws_instinct_video from "@/assets/images/marineford/dalmatian/dalmatian-dog-claws-instinct-cast.mp4";
 
 const Dalmatian = () => {
   return (
@@ -55,13 +71,32 @@ const Dalmatian = () => {
           <TabsContent value="range">
             <img src={skill_dog_claws_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_dog_claws_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_dog_claws_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
       <Box>
-        <Text>2. Shingan Ten - wave o obszarze 3x4.</Text>
+        <Text>
+          2. Shingan Ten - wave o obszarze 3x4. Dalmatian rozstawia
+          szeroko ręce przed użyciem.
+        </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
             <TabsTrigger value="range">Range</TabsTrigger>
@@ -71,8 +106,24 @@ const Dalmatian = () => {
           <TabsContent value="range">
             <img src={skill_shingan_ten_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_shingan_ten_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_shingan_ten_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -91,8 +142,24 @@ const Dalmatian = () => {
           <TabsContent value="range">
             <img src={skill_overpower_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_overpower_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_overpower_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -110,14 +177,31 @@ const Dalmatian = () => {
           <TabsContent value="range">
             <img src={skill_tekkai_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_tekkai_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_tekkai_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
       <Box>
         <Text>
           5. Carange - obszar 5x5. Należy odejść 2 sqm od Dalmatiana.
+          Dalmatian leczy się z tego spella za 130k.
         </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
@@ -126,10 +210,26 @@ const Dalmatian = () => {
             <TabsTrigger value="video">Video</TabsTrigger>
           </TabsList>
           <TabsContent value="range">
-            <img src={skill_carnage_range} alt="skill" />
+            <img src={skill_carange_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_carange_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_carange_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -148,8 +248,24 @@ const Dalmatian = () => {
           <TabsContent value="range">
             <img src={skill_dog_claws_instinct_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_dog_claws_instinct_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_dog_claws_instinct_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
     </>
