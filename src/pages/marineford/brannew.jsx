@@ -23,6 +23,20 @@ import skill_jump_range from "@/assets/images/marineford/brannew/brannew-jump-ra
 import skill_marine_hold_range from "@/assets/images/marineford/brannew/brannew-marine-hold-range.png";
 import skill_onigumo_range from "@/assets/images/marineford/brannew/brannew-onigumo-range.png";
 
+//SKILLS CAST
+import skill_gataling_gun_cast from "@/assets/images/marineford/brannew/brannew-gataling-gun-cast.mp4";
+import skill_haki_punch_cast from "@/assets/images/marineford/brannew/brannew-haki-punch-cast.mp4";
+import skill_jump_cast from "@/assets/images/marineford/brannew/brannew-jump-cast.mp4";
+import skill_marine_hold_cast from "@/assets/images/marineford/brannew/brannew-marine-hold-cast.mp4";
+import skill_onigumo_cast from "@/assets/images/marineford/brannew/brannew-onigumo-cast.mp4";
+
+//SKILLS VIDEO
+import skill_gataling_gun_video from "@/assets/images/marineford/brannew/brannew-gataling-gun-video.mp4";
+import skill_haki_punch_video from "@/assets/images/marineford/brannew/brannew-haki-punch-video.mp4";
+import skill_jump_video from "@/assets/images/marineford/brannew/brannew-jump-video.mp4";
+import skill_marine_hold_video from "@/assets/images/marineford/brannew/brannew-marine-hold-video.mp4";
+import skill_onigumo_video from "@/assets/images/marineford/brannew/brannew-onigumo-video.mp4";
+
 const Brannew = () => {
   return (
     <>
@@ -62,16 +76,32 @@ const Brannew = () => {
           <TabsContent value="range">
             <img src={skill_gatling_gun_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_gataling_gun_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_gataling_gun_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
       <Box>
         <Text>
-          2. Haki Punch & Jump - Atak sekwencyjn. Brannew uderza 2x
-          pięścią oraz skacze zadając obrażenia na obszarze 3x3 od
-          niego.
+          2. Haki Punch & Jump - Brannew pokrywa ręce haki. Atak
+          sekwencyjny. Brannew uderza 2x pięścią oraz skacze zadając
+          obrażenia na obszarze 3x3 od niego.
         </Text>
         <Tabs defaultValue="range" className="w-[1000px]">
           <TabsList>
@@ -87,8 +117,24 @@ const Brannew = () => {
             />
             <img src={skill_haki_stomp_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_haki_punch_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_haki_punch_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -106,8 +152,24 @@ const Brannew = () => {
           <TabsContent value="range">
             <img src={skill_jump_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_jump_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_jump_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -130,8 +192,24 @@ const Brannew = () => {
           <TabsContent value="range">
             <img src={skill_marine_hold_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_marine_hold_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_marine_hold_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
       <Separator />
@@ -149,8 +227,24 @@ const Brannew = () => {
           <TabsContent value="range">
             <img src={skill_onigumo_range} alt="skill" />
           </TabsContent>
-          <TabsContent value="cast">Cast</TabsContent>
-          <TabsContent value="video">Video</TabsContent>
+          <TabsContent value="cast">
+            <video
+              src={skill_onigumo_cast}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
+          <TabsContent value="video">
+            <video
+              src={skill_onigumo_video}
+              loop
+              autoPlay
+              controls
+              muted
+            />
+          </TabsContent>
         </Tabs>
       </Box>
     </>

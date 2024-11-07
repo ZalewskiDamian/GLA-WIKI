@@ -9,10 +9,6 @@ const Navigation = () => {
       href: `/marineford`,
       label: "Marineford",
     },
-    {
-      href: `/skypia`,
-      label: "Skypia",
-    },
   ];
   return (
     <nav className="flex items-center space-x-4 lg:space-x-6 ml-auto">

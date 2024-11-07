@@ -18,7 +18,7 @@ const marinefordData = [
     name: "Tashigi",
     url: "tashigi",
     sprite: spriteTashigi,
-    color: "#e88f9f",
+    color: "#f8b6b8",
   },
   {
     id: "2",
@@ -32,7 +32,7 @@ const marinefordData = [
     name: "Hina",
     url: "hina",
     sprite: spriteHina,
-    color: "#b9103b",
+    color: "#6a063e",
   },
   {
     id: "4",
