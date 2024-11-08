@@ -50,6 +50,18 @@ const Smoker = () => {
         description="Jeden z początkowych bosów pojawiających się na 10 fali"
         imageSrc={headingImage}
       />
+      <Title>Pełna walka:</Title>
+      <Box>
+        <Text>
+          <a
+            href="https://youtu.be/u5gBRm4RC8A?si=ZdhSgE8Lm0gOvn17&t=2738"
+            target="_blank"
+          >
+            https://youtu.be/u5gBRm4RC8A?si=ZdhSgE8Lm0gOvn17&t=2738
+          </a>
+        </Text>
+      </Box>
+      <Separator />
       <Title>Informacje:</Title>
       <Box>
         <List>

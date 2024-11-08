@@ -47,6 +47,18 @@ const Dalmatian = () => {
         description="Jeden z początkowych bosów pojawiających się na 10 fali"
         imageSrc={headingImage}
       />
+      <Title>Pełna walka:</Title>
+      <Box>
+        <Text>
+          <a
+            href="https://youtu.be/u5gBRm4RC8A?si=XXYN6NeP7aXl6xwE&t=3836"
+            target="_blank"
+          >
+            https://youtu.be/u5gBRm4RC8A?si=XXYN6NeP7aXl6xwE&t=3836
+          </a>
+        </Text>
+      </Box>
+      <Separator />
       <Title>Informacje:</Title>
       <Box>
         <List>

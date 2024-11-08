@@ -57,6 +57,18 @@ const Moria = () => {
         description="Jeden z początkowych bosów pojawiających się na 10 fali"
         imageSrc={headingImage}
       />
+      <Title>Pełna walka:</Title>
+      <Box>
+        <Text>
+          <a
+            href="https://youtu.be/u5gBRm4RC8A?si=pzgH8Y7Yt2St45zp&t=2155"
+            target="_blank"
+          >
+            https://youtu.be/u5gBRm4RC8A?si=pzgH8Y7Yt2St45zp&t=2155
+          </a>
+        </Text>
+      </Box>
+      <Separator />
       <Title>Informacje:</Title>
       <Box>
         <List>

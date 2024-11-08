@@ -47,6 +47,18 @@ const Bastille = () => {
         description="Jeden z początkowych bosów pojawiających się na 10 fali"
         imageSrc={headingImage}
       />
+      <Title>Pełna walka:</Title>
+      <Box>
+        <Text>
+          <a
+            href="https://youtu.be/u5gBRm4RC8A?si=Nxqs_vACGROZmwuo&t=1349"
+            target="_blank"
+          >
+            https://youtu.be/u5gBRm4RC8A?si=Nxqs_vACGROZmwuo&t=1349
+          </a>
+        </Text>
+      </Box>
+      <Separator />
       <Title>Informacje:</Title>
       <Box>
         <List>

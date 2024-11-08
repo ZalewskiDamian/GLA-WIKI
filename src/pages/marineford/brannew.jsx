@@ -45,6 +45,18 @@ const Brannew = () => {
         description="Jeden z początkowych bosów pojawiających się na 10 fali"
         imageSrc={headingImage}
       />
+      <Title>Pełna walka:</Title>
+      <Box>
+        <Text>
+          <a
+            href="https://youtu.be/u5gBRm4RC8A?si=w5QPFKXDdnE3rD3D&t=2393"
+            target="_blank"
+          >
+            https://youtu.be/u5gBRm4RC8A?si=w5QPFKXDdnE3rD3D&t=2393
+          </a>
+        </Text>
+      </Box>
+      <Separator />
       <Title>Informacje:</Title>
       <Box>
         <List>
